@@ -416,7 +416,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -853,9 +853,9 @@ i.iconfont {
     --body-bg-color: #030303;
     --board-bg-color: #030303;
     --text-color: #FAFAFA;
-    --sec-text-color: #FAFAFA;
+    --sec-text-color: #FCFAF2;
     --post-text-color: #FAFAFA;
-    --post-heading-color: #FAFAFA;
+    --post-heading-color: #FFFFFF;
     --post-link-color: #1589e9;
     --link-hover-color: #30a9de;
     --link-hover-bg-color: #364151;
@@ -879,7 +879,7 @@ i.iconfont {
     :root:not([data-user-color-scheme]) .navbar .dropdown-collapse,
     :root:not([data-user-color-scheme]) .top-nav-collapse,
     :root:not([data-user-color-scheme]) .navbar-col-show {
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.5);
       -webkit-backdrop-filter: blur(3px);
       backdrop-filter: blur(3px);
     }
@@ -904,9 +904,9 @@ i.iconfont {
   --body-bg-color: #030303;
   --board-bg-color: #030303;
   --text-color: #FAFAFA;
-  --sec-text-color: #FAFAFA;
+  --sec-text-color: #FCFAF2;
   --post-text-color: #FAFAFA;
-  --post-heading-color: #FAFAFA;
+  --post-heading-color: #FFFFFF;
   --post-link-color: #1589e9;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #364151;
@@ -930,7 +930,7 @@ i.iconfont {
   [data-user-color-scheme="dark"] .navbar .dropdown-collapse,
   [data-user-color-scheme="dark"] .top-nav-collapse,
   [data-user-color-scheme="dark"] .navbar-col-show {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.5);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
