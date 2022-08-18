@@ -416,7 +416,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: rgba(71,34,26,0.4);
+    background: rgba(220,234,249,0.4);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -425,7 +425,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: #47221a;
+    background: #dceaf9;
   }
 }
 @media (max-width: 767px) {
@@ -825,8 +825,8 @@ i.iconfont {
 }
 :root {
   --color-mode: "light";
-  --body-bg-color: #471409;
-  --board-bg-color: #471409;
+  --body-bg-color: #942c21;
+  --board-bg-color: #942c21;
   --text-color: #fff;
   --sec-text-color: #fffffb;
   --post-text-color: #fffffb;
@@ -835,9 +835,9 @@ i.iconfont {
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
   --line-color: #230a04;
-  --navbar-bg-color: #47221a;
-  --navbar-text-color: #fff;
-  --subtitle-color: #fff;
+  --navbar-bg-color: #dceaf9;
+  --navbar-text-color: #4e5052;
+  --subtitle-color: #1a1b1b;
   --scrollbar-color: #c4c6c9;
   --scrollbar-hover-color: #a6a6a6;
   --button-bg-color: transparent;
