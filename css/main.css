@@ -852,8 +852,8 @@ i.iconfont {
   :root:not([data-user-color-scheme]) {
     --body-bg-color: #030303;
     --board-bg-color: #030303;
-    --text-color: #FAFAFA;
-    --sec-text-color: #FCFAF2;
+    --text-color: #e0ffff;
+    --sec-text-color: #dcdcdc;
     --post-text-color: #FAFAFA;
     --post-heading-color: #FFFFFF;
     --post-link-color: #1589e9;
@@ -903,8 +903,8 @@ i.iconfont {
 [data-user-color-scheme="dark"] {
   --body-bg-color: #030303;
   --board-bg-color: #030303;
-  --text-color: #FAFAFA;
-  --sec-text-color: #FCFAF2;
+  --text-color: #e0ffff;
+  --sec-text-color: #dcdcdc;
   --post-text-color: #FAFAFA;
   --post-heading-color: #FFFFFF;
   --post-link-color: #1589e9;
