@@ -416,7 +416,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: rgba(220,234,249,0.4);
+    background: rgba(220,234,249,0.5);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -831,13 +831,13 @@ i.iconfont {
   --sec-text-color: #fffffb;
   --post-text-color: #fffffb;
   --post-heading-color: #ffffff;
-  --post-link-color: #1a3f47;
+  --post-link-color: #3995ff;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
-  --line-color: #230a04;
+  --line-color: rgba(255,255,255,0.5);
   --navbar-bg-color: #dceaf9;
   --navbar-text-color: #4e5052;
-  --subtitle-color: #1a1b1b;
+  --subtitle-color: #ffffff;
   --scrollbar-color: #c4c6c9;
   --scrollbar-hover-color: #a6a6a6;
   --button-bg-color: transparent;
@@ -879,7 +879,7 @@ i.iconfont {
     :root:not([data-user-color-scheme]) .navbar .dropdown-collapse,
     :root:not([data-user-color-scheme]) .top-nav-collapse,
     :root:not([data-user-color-scheme]) .navbar-col-show {
-      background: rgba(0,0,0,0.4);
+      background: rgba(0,0,0,0.5);
       -webkit-backdrop-filter: blur(3px);
       backdrop-filter: blur(3px);
     }
@@ -930,7 +930,7 @@ i.iconfont {
   [data-user-color-scheme="dark"] .navbar .dropdown-collapse,
   [data-user-color-scheme="dark"] .top-nav-collapse,
   [data-user-color-scheme="dark"] .navbar-col-show {
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.5);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
