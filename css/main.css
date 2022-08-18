@@ -756,7 +756,7 @@ sup > a::before,
   padding: 3rem 0;
 }
 html {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.02em;
 }
 html,
@@ -834,7 +834,7 @@ i.iconfont {
   --post-link-color: #3995ff;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
-  --line-color: rgba(255,255,255,0.4);
+  --line-color: rgba(255,255,255,0.3);
   --navbar-bg-color: #942c21;
   --navbar-text-color: #ffffff;
   --subtitle-color: #ffffff;
