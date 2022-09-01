@@ -2889,7 +2889,7 @@ details.toc[open] >div.body section .header+.doc_tree {
     transform: rotate(360deg);
   }
 }
-.logo-wrap a.avatar div.bg {
+.logo-wrap a.avatar:hover div.bg {
   opacity: 1 !important;
   animation: spin infinite 4s;
   animation-timing-function: linear;
