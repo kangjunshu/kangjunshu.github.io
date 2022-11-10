@@ -62,7 +62,7 @@
 <body>
   
 
-<div class="l_cover post reveal"><div class="cover"><div class="lazy img bg" data-bg="https://pic.imgdb.cn/item/630f9b3f16f2c2beb1f41d6d.jpg"></div></div></div>
+<div class="l_cover post reveal"><div class="cover"><div class="lazy img bg" style="background-image:url(&quot;https://pic.imgdb.cn/item/630f9b3f16f2c2beb1f41d6d.jpg&quot;)"></div></div></div>
 
 
   <div class='l_body' id='start'>
@@ -73,7 +73,7 @@
 
 <header class="header">
 
-<div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://pic1.imgdb.cn/item/636c584816f2c2beb18238e4.jpg" onerror="javascript:this.classList.add('error');this.src='https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">秋序十六</div><div class="sub cap">山中何事？松花酿酒，春水煎茶</div></a></div>
+<div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://pic1.imgdb.cn/item/636c584816f2c2beb18238e4.jpg" onerror="javascript:this.classList.add('error');this.src='https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">秋序十六</div><div class="sub normal cap">山中何事？松花酿酒，春水煎茶</div><div class="sub hover cap" style="opacity:0">Kang Junshu's Blog</div></a></div>
 
 
 <nav class="menu dis-select"><a class="nav-item active" href="/">最近</a><a class="nav-item" href="/categories/Notes/">笔记</a><a class="nav-item" href="/categories/%E8%AF%AD%E6%96%87/">摘抄</a><a class="nav-item" href="/about/">关于</a></nav>
@@ -90,7 +90,7 @@
 
 
 </div>
-<footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://github.com/kangjunshu/kangjunshu.github.io" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/></a><a class="social" href="/about/#comments" rel="noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/></a></div></footer>
+<footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://github.com/kangjunshu/kangjunshu.github.io" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/></a><a class="social" href="/about/#comments" rel="noopener noreferrer"><img src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/></a></div></footer>
 
     </aside>
     <div class='l_main'>
@@ -106,7 +106,7 @@
 <br/>
 <p class="tag-plugin quot" type="text">众里寻他千百度，蓦然回首，那人却在，灯火阑珊处</p>
 <br/>
-<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://pic.imgdb.cn/item/630fa0ac16f2c2beb1f61021.jpg"/></div></div>
+<div class="tag-plugin image"><div class="image-bg"><img src="https://pic.imgdb.cn/item/630fa0ac16f2c2beb1f61021.jpg"/></div></div>
 
 <p>本页面对于网络要求较高，请耐心等待页面加载…</p>
 
@@ -252,8 +252,8 @@
 
   stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
   // optional plugins
-  if ('true' == 'true') {
-    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  if ('false' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":false,"js":"https://fastly.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"fade"});
   }
   if ('true' == 'true') {
     stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@6/swiper-bundle.min.css","js":"https://unpkg.com/swiper@6/swiper-bundle.min.js"});
