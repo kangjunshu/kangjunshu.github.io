@@ -120,12 +120,12 @@
           <span class='name'>摘抄</span>
         </a>
       
-        <a class='tag' href="/tags/%E7%90%86%E8%A7%A3/">
-          <span class='name'>理解</span>
-        </a>
-      
         <a class='tag' href="/tags/%E6%95%99%E7%A8%8B/">
           <span class='name'>教程</span>
+        </a>
+      
+        <a class='tag' href="/tags/%E7%90%86%E8%A7%A3/">
+          <span class='name'>理解</span>
         </a>
       
         <a class='tag' href="/tags/%E7%9F%A9%E9%98%B5/">
@@ -306,7 +306,7 @@
       if (!path) {
         path = decodeURI(window.location.pathname);
       }
-      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://number10middleschool.club","commentCount":true,"pageview":true,"locale":{"placeholder":"发表一下你的感想吧（塞话筒）"},"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"lang":"zh-CN","wordLimit":0,"pageSize":5}, {
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://number10middleschool.club","commentCount":true,"pageview":false,"locale":{"placeholder":"发表一下你的感想吧（塞话筒）"},"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"lang":"zh-CN","wordLimit":0,"pageSize":5}, {
         el: '#waline_container',
         path: path,
       }));
