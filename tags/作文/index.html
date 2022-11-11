@@ -276,30 +276,26 @@
 <!-- optional -->
 
   <script>
-  function loadUtterances() {
-    const els = document.querySelectorAll("#comments #utterances");
-    if (els.length === 0) return;
-    els.forEach((el, i) => {
-      try {
-        el.innerHTML = '';
-      } catch (error) {
-        console.log(error);
+  function load_comment(){
+    if(!document.getElementById("waline_container"))return;
+    stellar.loadCSS('https://unpkg.com/@waline/client@v2/dist/waline.css');
+    stellar.loadScript('https://unpkg.com/@waline/client@v2/dist/waline.js', {defer:true}).then(function () {
+      const el = document.getElementById("waline_container");
+      var path = el.getAttribute('comment_id');
+      if (!path) {
+        path = decodeURI(window.location.pathname);
       }
-      var script = document.createElement('script');
-      script.src = 'https://utteranc.es/client.js';
-      script.async = true;
-      for (let key of Object.keys(el.attributes)) {
-        let attr = el.attributes[key];
-        if (['class', 'id'].includes(attr.name) === false) {
-          script.setAttribute(attr.name, attr.value);
-        }
-      }
-      el.appendChild(script);
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://number10middleschool.club","commentCount":true,"pageview":true,"locale":{"placeholder":"发表一下你的感想吧（塞话筒）"},"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"lang":"zh-CN","wordLimit":0,"pageSize":5}, {
+        el: '#waline_container',
+        path: path,
+      }));
     });
   }
   window.addEventListener('DOMContentLoaded', (event) => {
-      loadUtterances();
+    console.log('DOM fully loaded and parsed');
+    load_comment();
   });
+
 </script>
 
 
