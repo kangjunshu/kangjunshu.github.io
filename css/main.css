@@ -40,9 +40,9 @@
   --text-p4: #b3b3b3;
   --text-meta: #d0d0d0;
   --text-code: #f33a00;
-  --theme-highlight: #f85a56;
-  --theme-bg: #fef0f0;
-  --theme-link: #f9726e;
+  --theme-highlight: #fe4409;
+  --theme-bg: #feeee8;
+  --theme-link: #fe5722;
 }
 pre {
   font-family: Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif;
@@ -143,7 +143,7 @@ a.button {
   font-size: 0.9375rem;
 }
 a.button.theme {
-  background: #f9726e;
+  background: #fe5722;
   color: var(--card);
 }
 a.button.theme:hover {
@@ -165,7 +165,7 @@ a[onclick]:hover {
   color: #03c3f5;
 }
 .cap.theme {
-  color: #f85a56;
+  color: #fe4409;
 }
 .dis-select {
   -moz-user-select: none;
@@ -1094,7 +1094,7 @@ nav.cap a:after {
   bottom: -8px;
   left: 1rem;
   right: 1rem;
-  background: #f9726e;
+  background: #fe5722;
   border-radius: 2px;
   pointer-events: none;
 }
@@ -2741,7 +2741,7 @@ article.md.content h1.quot[type=text]:after {
   content: '';
   z-index: 1;
   position: absolute;
-  background: #f9726e;
+  background: #fe5722;
   height: 2px;
   bottom: -8px;
   left: 0.75rem;
@@ -2804,7 +2804,7 @@ article.md.content h1.quot[type=text]:after {
   max-width: 100%;
 }
 .md .tag-plugin.timeline .timenode[highlight] .header:before {
-  background: #f9726e;
+  background: #fe5722;
 }
 .md .tag-plugin.timeline .timenode+.timenode {
   margin-top: 1rem;
@@ -2813,13 +2813,13 @@ article.md.content h1.quot[type=text]:after {
   color: var(--text-p1);
 }
 .md .tag-plugin.timeline .timenode:hover .header .user-info {
-  background: #f9726e;
+  background: #fe5722;
 }
 .md .tag-plugin.timeline .timenode:hover .header .user-info span {
   color: var(--card);
 }
 .md .tag-plugin.timeline .timenode:hover .header:before {
-  background: #f9726e;
+  background: #fe5722;
   height: 16px;
   top: calc(50% - 0.5 * 16px);
   transform: scale(1);
@@ -3221,7 +3221,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   font-weight: 500;
   border-radius: 64px;
   padding: 0.5rem 1rem;
-  background: #f9726e;
+  background: #fe5722;
   color: var(--card);
   font-size: 1rem;
   align-self: stretch;
@@ -3261,7 +3261,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   width: 32px;
   left: calc(50% - 0.5 * 32px);
   border-radius: 4px;
-  background: #f9726e;
+  background: #fe5722;
 }
 .widget-wrap#github-user .widget-body .buttons {
   margin: 1rem 0;
@@ -3551,8 +3551,8 @@ nav.menu a.nav-item:hover {
   list-style: none;
 }
 #toc .toc-item.active {
-  color: #f9726e;
-  border-left-color: #f9726e;
+  color: #fe5722;
+  border-left-color: #fe5722;
 }
 #toc .toc-item .toc-child .toc-item {
   padding: 0;
@@ -3572,7 +3572,7 @@ nav.menu a.nav-item:hover {
   bottom: calc(50% - 6px);
   width: 2px;
   border-radius: 2px;
-  background: #f9726e;
+  background: #fe5722;
   visibility: hidden;
 }
 #toc a.toc-link:hover {
@@ -3836,7 +3836,7 @@ nav.menu a.nav-item:hover {
   color: var(--text-p1);
 }
 .post-list #archive:hover .archive-header:after {
-  background: #f9726e;
+  background: #fe5722;
 }
 .post-list #cats {
   padding: 0;
@@ -3866,7 +3866,7 @@ nav.menu a.nav-item:hover {
 }
 .post-list #cats a.cat:hover .badge {
   opacity: 1;
-  color: #f9726e;
+  color: #fe5722;
 }
 .post-list #tags {
   display: flex;
@@ -3897,7 +3897,7 @@ nav.menu a.nav-item:hover {
   background: var(--block-hover);
 }
 .post-list #tags a.tag:hover:before {
-  color: #f9726e;
+  color: #fe5722;
   opacity: 1;
 }
 article.md.error-page {
@@ -4393,7 +4393,7 @@ article.md blockquote {
   margin-right: 0;
   padding: 1rem;
   background: var(--card);
-  border-left: 6px solid #f9726e;
+  border-left: 6px solid #fe5722;
   border-radius: 8px;
   color: var(--text-p2);
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
@@ -4466,7 +4466,7 @@ img.lazy.error {
   -o-transition: box-shadow 0.2s ease-out, transform 0.2s ease-out, opacity 0.2s ease-out;
 }
 :root {
-  --swiper-theme-color: #f9726e !important;
+  --swiper-theme-color: #fe5722 !important;
 }
 .swiper-container {
   width: 100%;
@@ -4540,7 +4540,7 @@ img[fancybox='true'] {
   --waline-light-grey: #999;
   --waline-dark-grey: #666;
 /* 主题色 */
-  --waline-theme-color: #f9726e;
+  --waline-theme-color: #fe5722;
   --waline-active-color: #ff5722;
 /* 布局颜色 */
   --waline-color: #444;
