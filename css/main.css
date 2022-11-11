@@ -589,7 +589,7 @@ article.md .highlight.ts .code:before {
   outline: none;
 }
 html {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Noto Serif SC", "Microsoft Yahei",..., sans-serif;
   font-size: 15.5px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
